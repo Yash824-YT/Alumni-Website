@@ -1,0 +1,2438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Alumini.css">
+</head>
+<body >
+  
+<header class="nav-main-container">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class=" nav-container1">
+      <div class="navbar-brand pr-5">
+        <a class="navbar-brand" href="#">NGI-B.E. AI&ML</a>
+      </div>
+      <div class="navbar-nav nav-container-item collapse navbar-collapse nav-container pl-5">
+        <a class="nav-link active" href="#" onclick="display('sectionAluminiPage')">Home</a>
+        <a class="nav-link" href="#"  onclick="display('sectionBatchPage')">Batch</a>
+        <a class="nav-link" onclick="display('sectionNotesPage')">Notes</a>
+        <a class="nav-link" onclick="display('sectionGalleryPage')">Gallery</a>
+        <a class="nav-link"  onclick="display('sectionAboutPage')">About</a>
+      </div>
+      <div class="m-1 navbar-container-btn">
+        <button class="sign-in-btn btn btn-primary" onclick="display('sectionSignInPage')">Sign in</button>
+        <button onclick="display('sectionRegistration')" class="Registetion-btn">Registration</button>
+      </div>
+    </div>
+  </nav>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light nav-container2">
+    <div>
+      <a class="navbar-brand" href="#">NGI-B.E. AI&ML</a>
+    </div>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse nav-container" id="navbarNavAltMarkup">
+      <div class="navbar-nav nav-container-item">
+        <a class="nav-link active" href="#" onclick="display('sectionAluminiPage')">Home</a>
+        <a class="nav-link" href="#"  onclick="display('sectionBatchPage')">Batch</a>
+        <a class="nav-link" onclick="display('sectionNotesPage')">Notes</a>
+        <a class="nav-link" onclick="display('sectionGalleryPage')">Gallery</a>
+        <a class="nav-link"  onclick="display('sectionAboutPage')">About</a>
+      </div>
+      <div class="m-1 navbar-container-btn">
+        <button class="sign-in-btn btn btn-primary" onclick="display('sectionSignInPage')">Sign in</button>
+        <button onclick="display('sectionRegistration')" class="Registetion-btn">Registration</button>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<div id="sectionAluminiPage">
+
+  <div class="Alumini-welcome-page">
+    <div class="Alumini-welcome-page-container">
+      <h1 class="wel-page-heading">Welcome to NIG <span style="color: blue;">B.E. AI&ML</span> Student website</h1>
+      <p>Managed & maintained by <span style="color: blue;">B.E. AI&ML</span> students</p>
+      <h3 style="color: black;">Hi there! <span style="color: blue;font-size:35px;" id="rotating-text"></span></h3>
+      <br><br>
+      <p>This website is developed to keep all B.E. AI&ML students at one place. It includes all the semester nites, questions and assignments.
+        This website will helps to connect their seniours, juiors & classmates.
+      </p>
+      <button class="btn btn-primary page-container-btn">Get Started</button>
+    </div>
+    <div class="Alumini-welcome-page-image-container">
+      <img src="https://www.shutterstock.com/image-vector/alumni-emblem-column-mortarboard-hat-600nw-2484188355.jpg" class="image-alumini"/>
+    </div>
+  </div>
+  <hr>
+
+  <div class="notices-container">
+    <div class="pl-4">
+      <h1>Notices</h1>
+    </div>
+    <div class="noties-content">
+      <button class="btn btn-primary noties-button">Syllabus</button>
+      <button class="btn btn-primary noties-button">Wifis</button>
+      <button class="btn btn-primary noties-button">Academic Callender 2024-25</button>
+      <button class="btn btn-primary noties-button">Semester registration from</button>
+    </div>
+  </div>
+  <hr>
+
+  <div class="notes-container ">
+    <div>
+      <h1>Notes</h1>
+      <p>It inclueds all of your Semester Notes, Question and Assignments. If any note is missed to place you can place the issue in contact page.</p>
+    </div>
+    <div class="notes-sem-containers">
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753894367/Gemini_Generated_Image_tdlfxstdlfxstdlf_b50f0r.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>1st sem</h2>
+          <a>1 Discrete Mathematics</a><br>
+          <a>2 Data Structures and Algorithms</a><br>
+          <a>3 Computer Networks</a><br>
+          <a>4 Object Oriented Programming</a><br>
+          <a>5 Software Engineering</a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark" >
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753894646/Gemini_Generated_Image_omvwu5omvwu5omvw_rd1ldc.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>2nd sem</h2>
+          <a>1 Engineering Mathematics III </a><br>
+          <a>2 Operating Systems </a><br>
+          <a>3 Fundamentals of Artificial Intelligence and Machine Learning</a><br>
+          <a>4 Database Management System </a><br>
+          <a>5 Computer Graphics </a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark">
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753895065/Gemini_Generated_Image_8j2rw08j2rw08j2r_qw7ozr.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>3rd sem</h2>
+          <a>1 Design and analysis of Algorithm</a><br>
+          <a>2 IoT with Artificial Intelligence </a><br>
+          <a>3 Web Technology  </a><br>
+          <a>4 Management & Entrepreneurship for IT Industry</a><br>
+          <a>5 Elective I </a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark">
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753895438/Gemini_Generated_Image_gv07chgv07chgv07_tbxbpw.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>4th sem</h2>
+          <a>1 Machine intelligence for Data Science </a><br>
+          <a>2 Data Mining & Warehousing</a><br>
+          <a>3 Artificial Neural Network </a><br>
+          <a>4 Elective II </a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark">
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753895259/Gemini_Generated_Image_jyhwz8jyhwz8jyhw_psoccq.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>5th sem</h2>
+          <a>1 Information Retrieval in AI </a><br>
+          <a>2 Cloud Computing </a><br>
+          <a>3 Deep Learning for AI </a><br>
+          <a>4 Elective III</a><br>
+          <a>5 Elective IV</a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark">
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+
+      <div class="notes-sem shadow-lg p-2">
+        <div class="notes-sem-image">
+          <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753895321/Gemini_Generated_Image_byf0ugbyf0ugbyf0_eztncg.png" class="image"/>
+        </div>
+        <div class="notes-sem-text">
+          <h2>6th sem</h2>
+          <a>1 Natural Language Processing </a><br>
+          <a>2 Elective V</a><br>
+          <a>3 Elective VI</a><br><br>
+        </div>
+        <div class="notes-sem-btn">
+          <button class="notes-btn btn btn-primary mr-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor " class="bi bi-journal-bookmark">
+              <path fill-rule="evenodd" d="M6 8V1h1v6.117L8.743 6.07a.5.5 0 0 1 .514 0L11 7.117V1h1v7a.5.5 0 0 1-.757.429L9 7.083 6.757 8.43A.5.5 0 0 1 6 8"/>
+              <path d="M3 0h10a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2v-1h1v1a1 1 0 0 0 1 1h10a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1H3a1 1 0 0 0-1 1v1H1V2a2 2 0 0 1 2-2"/>
+              <path d="M1 5v-.5a.5.5 0 0 1 1 0V5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0V8h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1zm0 3v-.5a.5.5 0 0 1 1 0v.5h.5a.5.5 0 0 1 0 1h-2a.5.5 0 0 1 0-1z"/>
+            </svg>
+            Notes
+          </button>
+          <button class="syllabus-btn btn">Syllabus</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="memories pl-4">
+    <h1>Memories</h1>
+    <div class="memories-container-photo">
+      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753384278/Memories_1_xutk7z.jpg" class="d-block carousel-image">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.navsahyadri.edu.in/mimg/gallary/gallary_18.jpg" class="d-block carousel-image ">
+          </div>
+          <div class="carousel-item">
+            <img src="https://www.navsahyadri.edu.in/mimg/gallary/gallary_18.jpg" class="d-block carousel-image">
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </div>
+  <hr>
+
+  <div class="class-representatives pl-4">
+    <h1>Class Representatives</h1>
+    <div class="class-repredentative-container">
+      <div class="class-repredentative-boy-container shadow-lg">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753548548/1752756428345_hsu25v.png" class="image-cr"/>
+        <h3 class="pt-2">Aditya Jadhav</h3>
+        <p>Batch 2024-45</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/-aditya-jadhav/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <div class="class-repredentative-girl-container shadow-lg">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753550526/1742151227542_qhlfru.jpg" class="image-cr"/>
+        <h3 class="pt-2">Gaytri Bagal</h3>
+        <p>Batch 2024-45</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/gayatri-bagal-4aa927325/" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+<div id="sectionSignInPage">
+  <div class="signIn-page-container">
+      <div class="container">
+    <form id="signin-form">
+      <h2>Sign In</h2>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="Enter your password" required />
+
+      <div class="forgot-password">
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <button type="submit">Sign In</button>
+
+      <div class="divider">or</div>
+
+      <button type="button" class="google-signin" onclick="signInWithGoogle()">
+        <img src="https://developers.google.com/identity/images/g-logo.png" alt="Google logo" />
+        Sign in with Google
+      </button>
+    </form>
+  </div>
+  </div>
+</div>
+
+
+<div id="sectionRegistration">
+  <div  class="registration-from">
+    <!-- <h1 class="text-center ">Join Our Alumini Network</h1>
+    <p class="text-center p-3">Stay connected, stay inspired! Our Alumni Network is a vibrant community of past graduates who are making an impact around the world. 
+      Whether you're looking to reconnect with classmates, grow your professional network, or give back to your alma mater, this is the place for you.
+    </p> -->
+    <div class="shadow-lg p-5 registration-from-container">
+      <div class="text-center">
+        <h1>Alumini Registration</h1>
+        <p>Fill out your detalis to join the Network</p>
+      </div>
+      <form id="alumniForm">
+        <div class="registration-container-name">
+          <div class="text-center">
+            <label>Frist Name</label><br>
+            <input type="text" placeholder="Frist Name" required class="name-text"/>
+          </div>
+          <div class="text-center">
+            <label>Last Name</label><br>
+            <input type="text" placeholder="Last Name" required  class="name-text"/>
+          </div>
+        </div>
+        <br>
+        <div class="text-start">
+          <label>Email</label><br>
+          <input type="text" placeholder="yt824@gmail.com" required class="text-container rol-10"/>
+        </div>
+        <br>
+        <div class="text-start">
+          <label>Gradution Year</label><br>
+          <select name="year" id="year" placeholder="Select year" class="text-container ">
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <option value="2026">2026</option>
+            <option value="2026">2027</option>
+          </select>
+        </div>
+        <br>
+        <div class="text-start">
+          <label>Current Profession</label><br>
+          <input type="text" placeholder="Software Engineer" required class="text-container "/>
+        </div>
+        <br><br>
+        <div class="text-center">
+          <button class="btn btn-primary text-container">Registetion</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<div id="sectionBatchPage">
+  <div class="p-3">
+    <h2>Lastest batches</h2>
+    <div class="batch-main-container" onclick="display('sectionStudentPage')">
+      <div class="batch-container">
+        <h1>Batch : 01</h1>
+        <br>
+        <p>Strength : 60</p>
+        <p>Registered : 59</p>
+        <p>Year : 2024 - 2025</p>
+      </div>
+    </div>
+
+    <h2>Previous batches</h2>
+    <div class="batch-main-container">
+      <div class="batch-container">
+        <h1>Batch : 00</h1>
+        <br>
+        <p>Strength : 00</p>
+        <p>Registered : 00</p>
+        <p>Year : 2023 - 2024</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionStudentPage">
+    <div class="text-center p-3">
+      <h1>Batch 2024-2025</h1>
+    </div>
+    <div class="batch-student-main-container">
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536108/SAVE_20240226_145008_zdkmvp.jpg" class="image-student">
+        <h2>Yashraj Talekar</h2>
+        <p>From : Khandala</p>
+        <h6>field of Interest</h6>
+        <p>Full Stack Development</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/yashraj-talekar-191915346/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/Yash824-YT" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753548548/1752756428345_hsu25v.png" class="image-student">
+        <h2>Aditya Jadhav</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Science</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/-aditya-jadhav/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753550358/1740567330545_lqnt7n.jpg" class="image-student">
+        <h2>Sahil bodare</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analyst</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/sahil-bodare/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753550381/1744785998938_mh47qv.jpg" class="image-student">
+        <h2>Suyash Holkar</h2>
+        <p>From : Bhor</p>
+        <h6>field of Interest</h6>
+        <p>Machine Lerning</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/suyash-holkar-11a279272/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753550526/1742151227542_qhlfru.jpg" class="image-student">
+        <h2>Gaytri Bagal</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/gayatri-bagal-4aa927325/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753551156/1753170381311_eecedm.jpg" class="image-student">
+        <h2>Akshada Jadhav</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/akshada-jadhav-647718253/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753551993/1751885289590_at6w2k.png" class="image-student">
+        <h2>Vaishnavi Arde</h2>
+        <p>From : Bhor</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/vaishnavi-arde-2b2502252/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Pratiksha babar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753553329/1751790928457_gdq5dj.jpg" class="image-student">
+        <h2>Pranav Badhe</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Business Analytics</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/pranav-badhe-572b00293/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Prathamesh Bagal</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753553842/1746254150620_cnj2wv.jpg" class="image-student">
+        <h2>Tushar Bhagat</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/tushar-bhagat-357309212/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Shiddhesh Bhosale</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/gayatri-bagal-4aa927325/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753554261/1752352479299_hzfce6.jpg" class="image-student">
+        <h2>Aniket Budgude</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analyst</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/aniket-budgude-data-analyst/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Prathamesh Chavan</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753554923/1751967991535_xbis2j.jpg" class="image-student">
+        <h2>Shivling Chetke</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Full Stack Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/shivlingchetke/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Hariom Chikane</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/hariom-chikane-a789872b3/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753555233/1708427367280_wtwxml.jpg" class="image-student">
+        <h2>Tushar darekar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/tushar-darekar-7218a922a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753555433/1751179840725_nk8abn.jpg" class="image-student">
+        <h2>Mahesh Dawalar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Python Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/mahesh-dawalar-16901531b/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753635783/1751568014540_r62pai.jpg" class="image-student">
+        <h2>Pranjal Dhavane </h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/pranjal-dhavane-5a202825a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753635937/1683703894656_x36rei.jpg" class="image-student">
+        <h2>Gaurav Dhayagude </h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analytics Enthusiast</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/gaurav-aiml/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753636243/1744912252518_g0y7tg.jpg" class="image-student">
+        <h2>Shivam Harihar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>SQL Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/shivam-harihar-0b6820258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Abhishek Hingane</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Science</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/abhishek-hingane-79612b300/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Dipak Jadhav</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753637305/1753520844503_goo8fo.jpg" class="image-student">
+        <h2>ISHA JADHAV</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/isha-jadhav-a64166258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753637425/1743841900448_tbusv3.jpg" class="image-student">
+        <h2>Monali Jamdade</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analytics Learner</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/monali-jamdade-a49a99273/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Pratik Kambale</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Kiran Kamble</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753637827/1744635233404_hmb1sr.jpg" class="image-student">
+        <h2>Puja Kare</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Software Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/puja-kare-78b0ba258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753637944/1751648145191_bsku3z.jpg" class="image-student">
+        <h2>Prathamesh Konde</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/prathamesh-konde-a4ab80239/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753638087/1740590748569_viwmes.jpg" class="image-student">
+        <h2>Pradnesh Mahale </h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/pradnesh-mahale/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753638266/1738007201635_khroel.jpg" class="image-student">
+        <h2>Rohan Mane</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Full Stack Web Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="http://linkedin.com/in/rohan-mane-3745a91a3/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Vishvaraj Mane</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753638501/1751531114956_gvydnr.jpg" class="image-student">
+        <h2>Raviraj Mohite</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Web Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/raviraj-mohite-981a522b1/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Neha Borge</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/neha-borge-72317b258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753684083/1732200809056_ijnnfy.jpg" class="image-student">
+        <h2>Sarang Nevase</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/sarang-nevase-ba4041258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Om Rasal</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753684382/1719446868189_nqgkru.jpg" class="image-student">
+        <h2>Pratik Parjane</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/pratik-parjane-a47068289/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Pratham Patil</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Science</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/prathampatil837/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Vaibhav Patode</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753684683/1738305477428_akhsji.jpg" class="image-student">
+        <h2>Ganesh Pisal</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analytics</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/ganesh-pisal-b2050832a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753684758/1735828788292_inaxem.jpg" class="image-student">
+        <h2>Sahil Pisal</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Web Development</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/sahil-pisal/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Prajakta Bhorde</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/prajakta-bhorde-195b85239/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753685078/1738299869360_nwo0sa.jpg" class="image-student">
+        <h2>Pratik Kakade</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Full Stack Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/pratik-kakade-23319b258/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Sahil Rawalekar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753685273/1718734226067_yz2d5y.jpg" class="image-student">
+        <h2>Zeeshan Shaikh</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/zeeshan-shaikh-095822180/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753685434/1730523397423_qpp6fd.jpg" class="image-student">
+        <h2>Sakdhi Shimpi</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Data Analytics</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/saakshi-shimpi-891811281/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753685582/1718461291830_zjjptv.jpg" class="image-student">
+        <h2>Shreya Shingate</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/shreya-shingate-21942025b/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753685714/1740040244090_t3jd5j.jpg" class="image-student">
+        <h2>Sneha Shirke</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Frontend Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/sneha-shirke-1b060428a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753686019/1747229149586_pj4pyq.jpg" class="image-student">
+        <h2>Sujal Shivatare</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/sujal-shivatare-3786b9251/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Gaurav Suryawanshi</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753686502/1698519677047_g0bkne.jpg" class="image-student">
+        <h2>Vaibhav Bagekari</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>Web Developer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/vaibhav-bagekari-142k2/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753686636/1713803606784_kxhdn2.jpg" class="image-student">
+        <h2>Shantanu Vedpathak</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/shantanu-vedpathak-b949562b5/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Ashlesha Yadav</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/ashlesha-yadav-5243092a6/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Ishwari Yadav</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/ishwari-yadav-1027552a4/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+
+      <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Mansi Zanje</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/in/mansi-zanje-39b70024a/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div>
+      
+    </div>
+</div>
+
+
+<div id="sectionNotesPage">
+  <div class="notes-semester-container">
+    <h1 class="p-3">Select semester for notes!</h1>
+    <div class="notes-semester-container-semesters">
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester1')">
+        <h3>Semester 1</h3>
+      </div>
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester2')">
+        <h3>Semester 2</h3>
+      </div>
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester3')">
+        <h3>Semester 3</h3>
+      </div>
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester4')">
+        <h3>Semester 4</h3>
+      </div>
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester5')">
+        <h3>Semester 5</h3>
+      </div>
+      <div class="notes-semester-container-one text-center" onclick="display('sectionNotesSemester6')">
+        <h3>Semester 6</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester1">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Discrete Mathematics </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;"> 218541 </span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Dhanashri Gore</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Data Structures & Algorithms</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218542</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Neeta Dimble</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Computer Networks</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218543</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Sadhana Shelar</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Object Oriented Programming</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218544</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Pujari</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Software Engineering</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218545</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Rucha Bhuvad</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester2">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Engineering Mathematics III </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">207003</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Pravin Khopade</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Operating Systems </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218552</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Rucha Bhuvad</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Fundamentals of AI & ML</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218553</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Dhanashri Gore</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Database Management System </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218554</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Punam Shinde</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Computer Graphics </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">218555</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Gujar</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester3">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Design and analysis of Algorithm</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318541</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Dhanashri Gore</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>IoT with Artificial Intelligence </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318542</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Patil Madam</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Web Technology </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318543</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Maduri Pujari</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Management & Entrepreneurship for IT Industry </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318544</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Sonali Shigh</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective-I-(A): Robotics</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318545</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective-I-(B): Pattern Recognition</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318545</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective-I-(C): Information Security</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318545</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5> Elective I (D): Business Intelligence </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318545</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Gadagi</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester4">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Machine intelligence for Data Science</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318552</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Sonali Singh</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Data Mining & Warehousing</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318553</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Dhanashri Gore</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Artificial Neural Network</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318554</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Salukhe Sir</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5> Elective II (A) : Industrial Internet of Things</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318555</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Patil Madam</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective II (B) : Brain Computer Interface</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318555</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective II (C) - AI for Cyber Security</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318555</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective II (D) -: Video Analytics</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">318555</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester5">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Information Retrieval in AI </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418541</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Dheshmukh B.B.</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Cloud Computing</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418542</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Samgir K.R.</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Deep Learning for AI </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418543</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Ghanwat P.A.</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5> Elective III (Quantum computing)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418544A</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective III (Blockchain Technology) </h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418544B</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Sonali Singh</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective III (AI in Drones)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418544C</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective IV (Ethical Hacking and Cyber Forensics)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418545A</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. Pandit M.M.</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective IV (Augmented and Virtual Reality)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418545B</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective IV (DevOps in Machine Learning)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418545C</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="sectionNotesSemester6">
+  <div class="notes-semester-container-1">
+    <div class="notes-semester-container-subject p-3 shadow-lg">
+      <h5>Natural Language Processing</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418550</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective V (Distributed Systems)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418551A</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective V (Software Project Management)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418551B</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div> 
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective V (Computer Vision)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418551C</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective VI (Reinforcement Learning )</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418552A</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective VI (BigData Analytics)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418552B</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+    <div class="notes-semester-container-subject p-3 shadow">
+      <h5>Elective VI- (Artificial Intelligence using R programming)</h5>
+      <p style="color: gray;">Paper Code
+        <br>
+        <span style="color: black;">418552C</span>
+      </p>
+      <p style="color: gray;">Instructor:
+        <br>
+        <span style="color: black;">Prof. ---</span>
+      </p>
+      <div class="notes-semester-container-buttons m-2">
+        <button class="btn btn-primary m-1">Notes</button>
+        <button class="btn btn-primary m-1">Questions</button>
+        <button class="btn btn-primary m-1" style="filter: blur(4px); background-color: #939b77;">Assignments</button>
+        <button class="btn btn-secondary m-1" style="filter: blur(4px); background-color: #939b77;">Books</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div id="sectionGalleryPage">
+  <div class="p-4">
+    <h1>Community Gallery</h1>
+    <div class="m-3">
+      <button class="btn btn-primary">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-plus">
+          <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4"/>
+        </svg>
+        Add Image to Gallary
+      </button>
+    </div>
+    <div class="gallery-main-container">
+      <div class="gallery-container">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753384278/Memories_1_xutk7z.jpg" alt="Image 1" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753687600/9_otu4kt.jpg" alt="Image 9" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536594/5_ddhehb.jpg" alt="Image 2" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536587/4_ji22ga.jpg" alt="Image 3" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536578/3_mmgbgu.jpg" alt="Image 4" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536572/2_gkvgfe.jpg" alt="Image 7" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://www.navsahyadri.edu.in/mimg/gallary/gallary_18.jpg" alt="Image 8" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753687618/8_pxh7hf.jpg" alt="Image 10" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753687609/7_ntf0ln.jpg" alt="Image 11" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536566/1_xnu8wn.jpg" alt="Image 5" class="gallery-iamge"  onclick="openImage(this.src)">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753536602/6_nolvl1.jpg" alt="Image 6  " class="gallery-iamge"  onclick="openImage(this.src)">
+      </div>
+    </div>
+  </div>
+
+   <div class="image-popup" id="popup" onclick="closeImage()">
+    <img id="popup-img" alt="Zoomed">
+  </div>
+</div>
+
+
+<div id="sectionAboutPage">
+  <h2 class="text-center pt-5">About Us</h2>
+  <section class="shadow-lg aboutus-bg-container">
+    <div class="aboutus-container">
+      <div class="aboutus-image-container">
+      <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753775920/01_cfhx4t.jpg" />
+    </div>
+    <div class="aboutus-text-container">
+      <p>
+        Welcome to the <strong>Alumni Network</strong> of our esteemed institution. This platform serves as a bridge between the past and the present, connecting graduates across generations. We aim to foster lifelong relationships among alumni and strengthen the bond with our college community.
+      </p>
+      <p>
+        Whether you graduated recently or decades ago, this is your space to reconnect with classmates, share your journey, and contribute to the legacy of our institution. Our Alumni Association organizes events, mentorship programs, and networking opportunities to keep the spirit of togetherness alive.
+      </p>
+      <p>
+        Join us in celebrating achievements, supporting each other, and shaping a brighter future for current and future students.
+      </p>
+    </div>
+    </div>
+  </section>
+</div>
+
+
+
+<footer>
+  <div class="footer-container-1">
+    <div class="footer-name-container">
+      <h3>B.E. AI&ML</h3>
+      <p>Welcome to NGI B.E. AI&ML Batch page. This page is designed in view of junior for interacting with seniors.
+        They can also view various resources including notes & wifi passwords.
+      </p>
+    </div>
+    <br>
+    <div class="footer-link-container">
+      <h3>Important Links</h3>
+      <p>
+        NGI Engineering Website
+        <a href="https://navsahyadricoe.com/" target="_blank" style="color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </a>
+      </p>
+      <p>
+        NGI Website
+        <a href="https://www.navsahyadri.edu.in/" target="_blank" style="color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </a>
+      </p>
+      <p>
+        NGI Instagram
+        <a href="https://www.instagram.com/navsahyadri_college?igsh=MTEydDJ0NWMyNnNvNA==" target="_blank" style="color: #fff;">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-up-right">
+            <path fill-rule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5"/>
+            <path fill-rule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0z"/>
+          </svg>
+        </a>
+      </p>
+    </div>
+    <br>
+  </div>
+  <div class="footer-container-2">
+    <div class="footer-website-container">
+      <h3>On this website</h3>
+      <div class="footer-website">
+      <div class="footer-website-frist-line">
+        <p onclick="display('sectionAluminiPage')">Home</p>
+        <p onclick="display('sectionBatchPage')">Batch</p>
+        <p>Notes</p>
+        <p onclick="display('sectionGalleryPage')">Gallery</p>
+      </div>
+      <div class="footer-website-second-line">
+        <p onclick="display('sectionAboutPage')">About</p>
+        <p>Docs</p>
+        <p>Blogs</p>
+      </div>
+      </div>
+    </div>
+    <br>
+    <div class="footer-contact-container">
+      <h3>Contact Us</h3>
+      <p>Don’t hesitate to contact and feel free to reach us !</p>
+      <p>Sr. No. 69, 70, 71 Nasrapur, Naigaon, Maharashtra 412213
+      +91 77699 37007
+      principalncep@gmail.com</p>
+    </div>
+    <br>
+  </div>
+  <br>
+</footer>
+<div class="text-center p-3 footer">
+  <p>Copyrights @2025 NGI B.E. AI&ML. All rights reserved || Designed & developed by <span style="color: blue;">YashrajTalekar</span></p>
+</div>
+
+
+<script src="Alumini.js"></script>
+<script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
+
+
+
+
+<!-- <div class="batch-student-container shadow">
+        <img src="https://res.cloudinary.com/dvie8whfx/image/upload/v1753552485/4ff6159b7790b36775f596c4efa46265_bbscfx.jpg" class="image-student">
+        <h2>Pratiksha babar</h2>
+        <p>From : Pune</p>
+        <h6>field of Interest</h6>
+        <p>AI & ML Engineer</p>
+        <div class="batch-student-container-icon">
+          <a class="p-2" href="https://www.linkedin.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin blurred-icon" >
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+          </svg>
+        </a>
+        <a class="p-2" href="https://github.com/" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-github blurred-icon">
+            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.01 8.01 0 0 0 16 8c0-4.42-3.58-8-8-8"/>
+          </svg>
+        </a>
+        </div>
+      </div> -->
