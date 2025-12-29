@@ -1,58 +1,71 @@
 const texts = [
-      "Welcome to Our Alumni Network",
-      "Reconnect with Old Friends",
-      "Join Alumni Events & Reunions",
-      "Support Future Generations"
-    ];
+    "Welcome to Our Alumni Network",
+    "Reconnect with Old Friends",
+    "Join Alumni Events & Reunions",
+    "Support Future Generations"
+];
 
-    let index = 0;
-    const element = document.getElementById("rotating-text");
+let index = 0;
+const element = document.getElementById("rotating-text");
 
-    function rotateText() {
-      element.textContent = texts[index];
-      index = (index + 1) % texts.length;
-    }
+function rotateText() {
+    element.textContent = texts[index];
+    index = (index + 1) % texts.length;
+}
 
-    rotateText(); // Initial text
-    setInterval(rotateText, 4000);
-
+rotateText(); // Initial text
+setInterval(rotateText, 4000);
 
 
 function openImage(src) {
     document.getElementById('popup-img').src = src;
     document.getElementById('popup').style.display = 'flex';
-  }
+}
 
-  function closeImage() {
+function closeImage() {
     document.getElementById('popup').style.display = 'none';
-  }
+}
 
+const semesters = ["year1", "year2", "year3", "year4"];
 
-// function openPDF() {
-//   window.open('d:\Yashraj Talekar\Sri Hanuman Chalisa.pdf', '_blank');
-// }
+document.querySelectorAll(".student").forEach((studentDiv, i) => {
+    const name = studentDiv.dataset.name;
+    const cgpa = studentDiv.dataset.cgpa.split(",").map(Number);
+    const canvas = studentDiv.querySelector("canvas");
 
-
-
-
-
-
-
-// document.getElementById("signin-form").addEventListener("submit", function (e) {
-//   e.preventDefault();
-
-//   const email = document.getElementById("email").value.trim();
-//   const password = document.getElementById("password").value.trim();
-
-//   if (!email || !password) {
-//     alert("Please enter both email and password.");
-//     return;
-//   }
-
-//   // You can replace this with actual login logic or API call
-//   alert(`Signed in as: ${email}`);
-// });
-
-// function signInWithGoogle() {
-//   alert("Google Sign-In clicked (you can connect Google Auth here).");
-// }
+    new Chart(canvas, {
+        type: 'line',
+        data: {
+            labels: semesters,
+            datasets: [{
+                label: "CGPA",
+                data: cgpa,
+                borderColor: "#004080",
+                backgroundColor: "rgba(0,64,128,0.2)",
+                borderWidth: 2,
+                tension: 0.3,
+                fill: true,
+                pointRadius: 5,
+                pointBackgroundColor: "#004080"
+            }]
+        },
+        options: {
+            responsive: true,
+            plugins: {
+                title: {
+                    display: true,
+                    text: `${name}'s CGPA Progress`
+                },
+                legend: {
+                    display: false
+                }
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    max: 10
+                }
+            }
+        }
+    });
+});
